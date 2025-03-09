@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let currentQuestionIndex = 0;
     let score = 0;
-    let selectedAnswers = new Array(quizData.length).fill(null); // Store selected answers
+    let selectedAnswers = new Array(quizData.length).fill(null);
     const quizContainer = document.getElementById("quizContainer");
 
     function loadQuestion() {
