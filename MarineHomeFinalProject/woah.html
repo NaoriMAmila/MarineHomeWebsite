@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marine Life</title>
+    <title>Marine Home</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="quiz.js" defer></script>
+
 </head>
 <body>
     <header class="header">
-        <h1>Marine Life</h1>
+        <h1>Marine Home</h1>
         <nav class="nav-bar">
             <a href="#about" class="icon icon-home">About</a>
             <a href="#species" class="icon icon-species">Species</a>
             <a href="#conservation" class="icon icon-conserve">Conservation</a>
             <a href="#contact" class="icon icon-contact">Contact</a>
+            <a href="#MarineQuiz" class="icon icon-contact">Marine Quiz</a>
         </nav>
     </header>
     <main>
@@ -63,6 +66,11 @@
 
                 <button type="submit">Submit</button>
             </form>
+        </section>
+        <section id="MarineQuiz" class="section">
+            <h2>Test your knowledge on SDG 14: Life Below Water</h2>
+            <p>Ready to see how much you actually know about the conversation of marine life and SDG 14? Let's Go!</p>
+            <div id="quizContainer"></div>
         </section>
     </main>
     <footer class="footer">
