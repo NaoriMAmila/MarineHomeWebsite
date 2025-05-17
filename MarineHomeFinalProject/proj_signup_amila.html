@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Marine Home Sign Up</title>
+  <link rel="stylesheet" href="proj.css" />
+  <script src="proj.js" defer></script>
+</head>
+<body>
+  <a href="proj_profile_amila.html">Marineeeee</a>
+  <header>
+    <h1>Marine Home</h1>
+    <p class="tagline">Protecting life below water, one voice at a time.</p>
+  </header>
+
+  <section>
+    <form id="signupForm">
+      <label>First Name <input type="text" id="firstName" required /></label><span class="error"></span>
+      <label>Last Name <input type="text" id="lastName" required /></label><span class="error"></span>
+      <label>Email <input type="email" id="email" required /></label><span class="error"></span>
+      <label>Password <input type="password" id="password" required /></label><span class="error"></span>
+      <label>Sex:
+        <input type="radio" name="sex" value="Male" /> Male
+        <input type="radio" name="sex" value="Female" /> Female
+        <input type="radio" name="sex" value="Prefer not to say" /> Prefer not to say
+      </label><span class="error"></span>
+      <label>Contact Number (optional): <input type="text" id="contact" /></label><span class="error"></span>
+      <label>Why you're supporting marine conservation*:
+        <textarea id="supportReason" required></textarea>
+      </label><span class="error"></span>
+
+      <button type="submit">Join the Movement</button>
+    </form>
+  </section>
+</body>
+</html>
